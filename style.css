@@ -1,0 +1,165 @@
+.container {
+    max-width: 1380px;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn {
+    color: #fff !important;
+    background-color: #6c757d;
+    border-radius: 7px;
+    /* padding: 8px 17px; */
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 550;
+
+}
+
+.btn:hover {
+    background: #5c636a !important;
+    color: #fff !important;
+
+
+}
+
+.btn a {
+    margin-left: 5px;
+}
+
+li.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 18px; */
+}
+
+ul.navbar-nav.ms-auto {
+    gap: 24px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav img {
+    display: inline-block;
+}
+
+a.nav-link {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    gap: 5px;
+    /* justify-content: space-between; */
+}
+
+.active {
+    color: #42A045 !important;
+}
+
+
+
+
+
+
+.banner {
+    min-height: 318px;
+    background: url("/img/banner.jpg") left 65%/cover no-repeat;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    padding: 80px 0;
+    background-color: #f5f6fa;
+
+}
+
+.main-header {
+    padding: 21px 28px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.box {
+    display: grid;
+    gap: 23px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+.svg {
+    color: #42a045;
+    padding: 12px 0;
+}
+
+.card {
+    height: 131px;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.card-text span {
+    color: #000000;
+    font-weight: 400;
+}
+
+.active-card {
+    background: #42A045;
+
+}
+
+.active-text span {
+    color: #fff;
+}
+
+.active-svg {
+    color: #fff;
+}
+
+.card:hover {
+    background-color: #42A045;
+}
+
+.card:hover .svg {
+    color: #fff;
+}
+
+.card:hover .card-text>span {
+    color: #fff;
+}
